@@ -1,0 +1,2 @@
+This folder contains notes and practical exercises from the complete Python programming course, created and practiced following Shraddha Khapra's tutorials on YouTube.
+The course covers all essential aspects of programming and is helpful in gaining a solid understanding of Python.
