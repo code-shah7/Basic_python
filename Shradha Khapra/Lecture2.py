@@ -101,8 +101,8 @@
 
 #WAP to check if a number is a multiple of 7 or not.
 
-num = int(input("Enter Number:"))
-if(num%7==0):
-    print("It is multiple of 7")
-else:
-    print("no, it is not multiple of 7")
+# num = int(input("Enter Number:"))
+# if(num%7==0):
+#     print("It is multiple of 7")
+# else:
+#     print("no, it is not multiple of 7")
