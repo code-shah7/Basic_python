@@ -1,61 +1,61 @@
-# # # str1= 'Aditya '
-# # # str2="Shukla"
-# # # print(str1+" "+str2)     #concatenation sum of two str 
-# # # str3='''Success is not final, failure is not fatal: It is the courage to continue that counts.'''
-# # # print(len(str3))
+# str1= 'Aditya '
+# str2="Shukla"
+# print(str1+" "+str2)     #concatenation sum of two str 
+# str3='''Success is not final, failure is not fatal: It is the courage to continue that counts.'''
+# print(len(str3))
 
-# # # #Escape Character 
-# # # # (\n) = for next line 
-# # # # (\t) = tab space b/w two word
-# # # str4="Hello My name is Aditya .\n I'm 19 year old"
-# # # str4="Hello My name is Aditya. \t  I'm 19 year old"
-# # # print(str4)
+# #Escape Character 
+# # (\n) = for next line 
+# # (\t) = tab space b/w two word
+# str4="Hello My name is Aditya .\n I'm 19 year old"
+# str4="Hello My name is Aditya. \t  I'm 19 year old"
+# print(str4)
 
-# # # #INDEXING
+# #INDEXING
 
-# # str = "ASD#SHERSHAH"
-# # ch = str[0]
-# # print(ch)
-# # ch1 = str[1]
-# # print(ch1)
-# # ch2 = str[2]
-# # print(ch2)
+# str = "ASD#SHERSHAH"
+# ch = str[0]
+# print(ch)
+# ch1 = str[1]
+# print(ch1)
+# ch2 = str[2]
+# print(ch2)
 
 # # #SLICING
-# # # str[ Starting_index : ending_index] #ending index is not included
+# # str[ Starting_index : ending_index] #ending index is not included
 
-# # str ="ASD%SHERSHAH"
-# # print(str[4:12])
-# # print(str[4:len(str)])
-# # print(str[4:])            #[5:len(str)]
-# # print(str[:12])           #[0:12]
+# str ="ASD%SHERSHAH"
+# print(str[4:12])
+# print(str[4:len(str)])
+# print(str[4:])            #[5:len(str)]
+# print(str[:12])           #[0:12]
 
-# # #negative Slicing
-# # print(str[-12:-1])
+# #negative Slicing
+# print(str[-12:-1])
 
-# # #STRING FUNCTION
-# # str='i am studying python from myself'
-# # str = str.capitalize()
-# # print(str)
+# #STRING FUNCTION
+# str='i am studying python from myself'
+# str = str.capitalize()
+# print(str)
 
-# # str='i am studying python from myself'
-# # print(str.replace("python","java"))
+# str='i am studying python from myself'
+# print(str.replace("python","java"))
 
-# # str='i am studying python from myself'
-# # print(str.find("python"))
+# str='i am studying python from myself'
+# print(str.find("python"))
 
-# # str='i am studying python from myself'
-# # print(str.count("i"))
+# str='i am studying python from myself'
+# print(str.count("i"))
 
-# # #WAP to input user's first name & print its length.
-# # Name = str(input("Enter your first name:"))
-# # print(Name)
-# # # print(len(Name))
+# #WAP to input user's first name & print its length.
+# Name = str(input("Enter your first name:"))
+# print(Name)
+# # print(len(Name))
 
-# # WAP to find the occurence of '$' in a string.
+# WAP to find the occurence of '$' in a string.
 
-# # Str=("price of 1 $$$$$ =80 ruppees")
-# # print(Str.count("$"))
+# Str=("price of 1 $$$$$ =80 ruppees")
+# print(Str.count("$"))
 
 
 
@@ -106,3 +106,17 @@
 #     print("It is multiple of 7")
 # else:
 #     print("no, it is not multiple of 7")
+
+a = int(input("First num:"))
+b = int(input("Second num:"))
+c = int(input("Third num:"))
+d = int(input("Fourth num:"))
+
+if(a>=b and a>=b and a>=d):
+    print("a is greatest")
+elif(b>=c and b >=d):
+    print("b is greatest")
+elif(c>=d):
+    print("c is greatest")
+else:
+    print("d is greatest")
