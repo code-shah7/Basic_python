@@ -68,12 +68,71 @@ tup=(1, 4, 9, 16, 25, 36, 49, 64, 81,100)
 
 
 #continue
-i = 0
-while i <= 100:
-    if(i%2==0):
-         i+= 1
-         continue
-    print(i)
-    i +=1
+# i = 0
+# while i <= 100:
+#     if(i%2==0):
+#          i+= 1
+#          continue
+#     print(i)
+#     i +=1
 
-    #For Loop
+# #     #For Loop
+# list="SHERSHAH"
+# for char in list :
+#          print(char)
+# else:
+#         print("end")
+#Print the elements of the follo wing list using a loop:
+# lists=[1,4,9,16,25,64,81,100]
+# for char in lists :
+#     print(char)
+
+#search for a number x in this tuple using loop:
+# num = (1,4,9,16,25,36,49,64,81,100) 
+# x = 64
+# for el in num :
+#     print(el)
+#     if (el == x) :
+#      print ("x found")
+#      break
+# else :
+#    print("not found")/
+
+
+#range
+# for i in range(10):            #range(stop)
+#     print(i)
+# for i in range (1,10):        #range(start,stop)
+#     print (i)
+# for i in range (2 , 10, 2):  #range(start,stop, step)
+#     print(i)
+
+# for i in range (2 , 100, 2):
+#     print (i)
+
+# #Using for & range()
+# #print numbers from 1 to 100.
+# for i in range (1,101):
+#     print(i)
+# #print numbers from 100 to 1.
+# for j in range (100,1,-1):
+#     print(j)
+#print the multiplication table of a number
+# x=int(input("Enter num:"))
+# for i in range (1,11):
+#     print(x*i)
+
+# #pass statement
+# for i in range (10):
+#     pass
+
+#WAP to find the sum of first n numbers (using while)
+n = 5
+sum =0
+for i in range (1 , n+1):
+    sum +=1
+print("total sum", sum)
+
+
+
+#WAP to find the factorial of first n numbers. (usingfor)
