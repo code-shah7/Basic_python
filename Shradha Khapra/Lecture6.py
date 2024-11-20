@@ -103,7 +103,6 @@ def natural(n):
 natural(6)
 
 #write a recursive function to print all elements in a list.
-
 def print_list(list, idx=0):
     if(idx == len(list)):
           return
