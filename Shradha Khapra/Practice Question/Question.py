@@ -1,5 +1,5 @@
-#Easy coding Question
-'''convert m to km '''
+# #Easy coding Question
+# '''convert m to km '''
 
 
 # m=int(input("Enter your Distance in Meter:"))
@@ -17,7 +17,7 @@
 
 # print("Given Meter distance in Km:", km  ,'km')
 
-# '''Calculate Simple Interest'''
+# # '''Calculate Simple Interest'''
 
 # p=int(input("Enter your principal amount :"))
 # r=float(input("Enter you rate (per annum):"))
@@ -31,7 +31,16 @@
 # simple_interest(68000,50/3,3/4)
 # simple_interest(p,r,t)
 
-'''Find largest number in list'''
-#num=[10,20,30,40,50,100]
+# '''Find largest number in list'''
+# #num=[10,20,30,40,50,100]
 
-'''Check number if prime or not'''
+# '''Check number if prime or not'''
+def check_prime(prime):
+    if prime%prime==0 and prime%1==0:
+        print("it's a prime number:",prime)
+    else:
+        print("No it is not a prime number:",prime)
+
+        return
+    
+check_prime(6)

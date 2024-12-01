@@ -24,14 +24,14 @@
 # # #SLICING
 # # str[ Starting_index : ending_index] #ending index is not included
 
-# str ="ASD%SHERSHAH"
+str ="ASD%SHERSHAH"
 # print(str[4:12])
 # print(str[4:len(str)])
 # print(str[4:])            #[5:len(str)]
 # print(str[:12])           #[0:12]
 
 # #negative Slicing
-# print(str[-12:-1])
+print(str[0:-10])
 
 # #STRING FUNCTION
 # str='i am studying python from myself'
@@ -107,16 +107,16 @@
 # else:
 #     print("no, it is not multiple of 7")
 
-a = int(input("First num:"))
-b = int(input("Second num:"))
-c = int(input("Third num:"))
-d = int(input("Fourth num:"))
+# a = int(input("First num:"))
+# b = int(input("Second num:"))
+# c = int(input("Third num:"))
+# d = int(input("Fourth num:"))
 
-if(a>=b and a>=b and a>=d):
-    print("a is greatest")
-elif(b>=c and b >=d):
-    print("b is greatest")
-elif(c>=d):
-    print("c is greatest")
-else:
-    print("d is greatest")
+# if(a>=b and a>=b and a>=d):
+#     print("a is greatest")
+# elif(b>=c and b >=d):
+#     print("b is greatest")
+# elif(c>=d):
+#     print("c is greatest")
+# else:
+#     print("d is greatest")
